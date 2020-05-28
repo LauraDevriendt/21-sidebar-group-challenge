@@ -1,217 +1,186 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    background: #fafafa;
-  
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  background: #fafafa;
 }
 
-
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-   
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
-h3{
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 700;
+h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
 }
 
-h4{
-    font-size: 1rem;
-    font-weight: 700;
+h4 {
+  font-size: 1rem;
+  font-weight: 700;
 }
-i{
-    font-size: 0.8rem;
-    margin-right: 10px;
+i {
+  font-size: 0.8rem;
+  margin-right: 10px;
 }
-
 
 /* Partial sidebar styling  */
-        #sidebarCollapseSmall{
-            position: absolute;
-            left: -20px;
-           
+#sidebarCollapseSmall {
+  position: absolute;
+  left: -20px;
+}
 
-        }
+.smallSidebar {
+  position: relative;
+  height: 100vh;
+  width: 55px;
+  background-color: #271b28;
+  color: rgba(255, 255, 255, 0.568);
+  z-index: 1;
+}
 
-        .smallSidebar{
-            position: relative;
-            height: 100vh;
-            width: 55px;
-            background-color:#271B28;
-            color: rgba(255, 255, 255, 0.568);
-            z-index: 1;
-        }
+.smallSidebar {
+  padding-top: 0.3rem;
+}
 
-       .smallSidebar{
-           padding-top: 0.3rem;
-       }
+.icons-smallSidebar i {
+  font-size: 0.5rem;
+}
 
-        .icons-smallSidebar i{
-            font-size: 0.5rem;
-           
-        }
+.green-icon {
+  color: rgb(24, 214, 24);
+}
 
+.orange-icon {
+  color: orange;
+}
 
-        .green-icon{
-            color: rgb(24, 214, 24);
-        }
+.red-icon {
+  color: red;
+  margin-left: 10px;
+}
 
-        .orange-icon{
-            color: orange
-        }
+.buttonContainer {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.buttonContainer i {
+  margin-top: 0.5rem;
+}
 
-        .red-icon{
-            color: red;
-            margin-left: 10px;
-          
-        }
+.logo-container {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(48, 46, 48, 0.514);
+  border: 1px solid rgba(48, 46, 48, 0.514);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .buttonContainer{
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+.logo-container i {
+  font-size: 2rem;
+  margin: 0;
+}
 
-    .buttonContainer i{
-        margin-top: 0.5rem;
-    }
+.plus-partialBar {
+  position: relative;
+  font-size: 1.6rem;
+  color: #271b28;
+}
 
-
-    .logo-container{ 
-        width: 40px;
-        height: 40px;
-        background-color: rgba(48, 46, 48, 0.514);
-        border: 1px solid  rgba(48, 46, 48, 0.514);
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        
-    }
-
-    .logo-container i{
-        font-size: 2rem;
-        margin:0;
-        
-    }
-
-    .plus-partialBar{
-        position: relative;
-        font-size: 1.6rem;
-        color:#271B28;
-        
-    }
-
-    .activeSmallSidebar{
-        color: white;
-        font-weight: 900;
-        border-left: 2px solid white;
-    }
-
-    
+.activeSmallSidebar {
+  color: white;
+  font-weight: 900;
+  border-left: 2px solid white;
+}
 
 /* Sidebar styling */
-        
-        .wrapper{
-            width:100%;
-            min-height: 100vh;
-        }
 
-        #sidebar {
-            background: #4A344C;
-            color:rgba(255, 255, 255, 0.568);
-            transition: all 0.3s;
-        }
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
 
-        ul{
-            list-style: none;
-            margin-top: 1rem;
-        }
+#sidebar {
+  background: #4a344c;
+  color: rgba(255, 255, 255, 0.568);
+  transition: all 0.3s;
+}
 
-        #BDSubmenu{
-            position: relative;
-            bottom: 20px;
-            
-        }
+ul {
+  list-style: none;
+  margin-top: 1rem;
+}
 
-        .all-threads {
-            margin-bottom: 2rem;
-        }
+#BDSubmenu {
+  position: relative;
+  bottom: 20px;
+}
 
-        .water{
-            color: rgb(36, 118, 194);
-            margin-left: 0.5rem;
-        }
-        
+.all-threads {
+  margin-bottom: 2rem;
+}
 
-        .channels{
-            margin-top: 2rem;
-        }
+.water {
+  color: rgb(36, 118, 194);
+  margin-left: 0.5rem;
+}
 
+.channels {
+  margin-top: 2rem;
+}
 
-        img{
-            width: 20px;
-            margin-left: 0.2rem;
+img {
+  width: 20px;
+  margin-left: 0.2rem;
+}
 
-        }
+/* Positioning sidebar */
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+}
 
+/* push sidebar out of screen */
+#sidebar.active {
+  margin-left: -30vw;
+}
 
-    /* Positioning sidebar */
-        #sidebar {
-         min-width: 250px;
-         max-width: 250px;
-        }
-
-        /* push sidebar out of screen */
-        #sidebar.active {
-            margin-left: -30vw;
-        }
-        
-         /* Sidebar button */
-         #sidebarCollapse{
-            position: relative;
-            margin-left: 48px;
-            z-index:1;
-           
-        }
-
+/* Sidebar button */
+#sidebarCollapse {
+  position: relative;
+  margin-left: 20vw;
+  z-index: 1;
+}
 
 /* smaller screen */
 @media (max-width: 768px) {
-    #sidebar {
-        margin-left: -310px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-    #sidebarCollapse{
-        
-        display: none;
-    }
-    #sidebarCollapseSmall{
-        position: absolute;
-        top: 1rem;
-        left: 3.7rem;
-        display: block;
-        width: 25px;
-        height: 25px;
-        overflow: hidden;
-        z-index: 2;
-    }
+  #sidebar {
+    margin-left: -310px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse {
+    display: none;
+  }
+  #sidebarCollapseSmall {
+    position: absolute;
+    top: 1rem;
+    left: 3.7rem;
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    z-index: 2;
+  }
 }
-
-        
-
-        
-
-
-
-
